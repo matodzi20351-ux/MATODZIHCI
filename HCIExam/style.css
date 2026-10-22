@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial,sans-serif;background:#fff;color:#1a1a1a;line-height:1.5}
+header{padding:20px 16px;border-bottom:1px solid #e5e5e5}h1{margin:0;font-size:1.4rem}header p{margin:4px 0 0;color:#666;font-size:.9rem}
+main{max-width:760px;margin:0 auto;padding:16px}
+.card{border:1px solid #e0e0e0;border-radius:10px;padding:14px;margin-bottom:12px;background:#fff}
+.sec{display:block;width:100%;text-align:left;cursor:pointer;font:inherit}.sec:hover{border-color:#1a56db}
+.bar{height:8px;background:#eee;border-radius:99px;overflow:hidden;margin:6px 0}.bar i{display:block;height:100%;background:#1a56db;width:0;transition:width .2s}
+.sticky{position:sticky;top:0;background:#fff;padding:8px 0;z-index:2;border-bottom:1px solid #eee}
+.opt{display:block;padding:8px 10px;border:1px solid #ddd;border-radius:8px;margin:6px 0;cursor:pointer}
+.opt.sel{border-color:#1a56db;background:#eef3ff}.opt.ok{border-color:#15803d;background:#ecfdf3}.opt.bad{border-color:#b91c1c;background:#fef2f2}
+textarea{width:100%;min-height:90px;padding:8px;border:1px solid #ccc;border-radius:8px;font:inherit}
+button{font:inherit;padding:9px 16px;border-radius:8px;border:1px solid #1a56db;background:#1a56db;color:#fff;cursor:pointer}
+button.alt{background:#fff;color:#1a56db}.model{background:#f5f8ff;border-left:4px solid #1a56db;padding:10px;margin-top:8px;border-radius:6px;white-space:pre-line}
+.tag{font-size:.8rem;color:#666}.score{font-size:1.2rem;font-weight:600}
